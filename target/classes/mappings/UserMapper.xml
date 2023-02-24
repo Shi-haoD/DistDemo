@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="lsh.disk.mapper.UserMapper">
+    <!--根据登录-->
+    <select id="getUser" resultType="User" >
+        select *  from user where name=#{name} and pwd=#{pwd}
+    </select>
+
+   <!--添加-->
+    <insert id="add">
+        insert into user values(null,#{name},#{pwd})
+    </insert>
+
+</mapper>

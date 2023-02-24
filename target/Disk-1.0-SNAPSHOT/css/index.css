@@ -1,0 +1,422 @@
+/*全局样式*/
+* {
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #1DADCF;
+}
+ul {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+em {
+	font-style: normal;
+	font-weight: 100;
+}
+
+input[type=checkbox] {
+	display: inline-block;
+	vertical-align: middle;
+	width: 16px;
+	height: 16px;
+	float: left;
+	margin-top: 12px;
+	margin-left: 3px;
+	-webkit-appearance: none;
+	background-color: transparent;
+	border: 0;
+	outline: 0 !important;
+	line-height: 20px;
+	color: #d8d8d8;
+}
+
+input[type=checkbox]:after {
+	content: "";
+	display: block;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+	line-height: 14px;
+	font-size: 16px;
+	color: #fff;
+	border: 1px solid #ddd;
+	background-color: #fff;
+	box-sizing: border-box;
+}
+
+input[type=checkbox]:checked:after {
+	border: 1px solid #ddd;
+	/*background: url("../tupian-yunpan-index/duigou.png");*/
+}
+
+/*顶部导航栏*/
+.dingbudaohang {
+	margin: 0 auto;
+	height: 100px;
+	background-color: #1DADCF;
+}
+
+.dingbudaohangfb {
+	height: 100px;
+	width: 1349px;
+	background-color: #1DADCF;
+}
+
+.dingbu1 {
+	float: left;
+	margin-left: 16px;
+	margin-top: 6px;
+}
+
+.dingbu2 {
+	float: left;
+	padding-left: 45px;
+	display: inline;
+}
+
+.dingbu2 li {
+	float: left;
+}
+
+.dingbu2 li a {
+	position: relative;
+	display: block;
+	line-height: 60px;
+	padding: 0 17px;
+	font-size: 16px;
+	color: rgba(255, 255, 255, 0.6);
+	letter-spacing: 2px;
+}
+
+.dingbu3 {
+	float: right;
+	margin-right: 40px;
+	color: #FFFFFF;
+	font-size: 16px;
+	height: 70px;
+}
+
+.dingbu3 a {
+	line-height: 60px;
+	font-size: 14px;
+	color: #FFFFFF;
+}
+
+.d31 {
+	padding: 0 4px;
+}
+
+#d11 {
+	color: #1DADCF;
+}
+
+.d1 a {
+	background-color: #1DADCF;
+}
+
+.d2 a:hover {
+	color: #FFFFFF
+}
+
+.d3 a:hover {
+	color: #FFFFFF
+}
+
+/*登录*/
+.denglu {
+	margin: 0 auto;
+	height: 500px;
+}
+
+.denglufb {
+	width: 100%;
+	height: 623px;
+	background: url("../images/0f05e7be31757a98296f76d0ba8004bc874282a7.jpg");
+}
+
+/*版本*/
+.banben {
+	margin: 0 auto;
+	height: 155px;
+	background-color: #F7F2AA;
+}
+
+.banbenfb {
+	height: 155px;
+	width: 1349px;
+	background-color: #F7F2AA;
+}
+
+.bb1 {
+	float: left;
+	margin-left: 240px;
+	margin-top: 38px;
+	height: 80px;
+	width: 150px;
+}
+
+.bb2 {
+	float: left;
+	margin-left: 20px;
+	margin-top: 38px;
+	height: 80px;
+	width: 150px;
+}
+
+.bb3 {
+	float: left;
+	margin-top: 38px;
+	height: 80px;
+	width: 150px;
+}
+
+.bb31 {
+	float: left;
+	margin-left: 7px;
+}
+
+.version-name {
+	font-size: 10px;
+	color: #000000;
+}
+
+.version-name1 {
+	font-size: 10px;
+	padding-left: 13px;
+	color: #000000;
+}
+
+.version-name2 {
+	font-size: 10px;
+	padding-left: 15px;
+	color: #000000;
+}
+
+.version-name3 {
+	font-size: 10px;
+	padding-left: 18px;
+	color: #000000;
+}
+
+.icon {
+	padding-left: 20px;
+}
+
+/*介绍*/
+.jieshao {
+	margin: 0 auto;
+	height: 1720px;
+}
+
+.jieshaofb {
+	width: 1349px;
+	height: 1720px;
+}
+
+.jieshao1 {
+	float: top;
+	height: 160px;
+	width: 300px;
+	margin-left: 487px;
+}
+
+.jieshao2 {
+	float: top;
+	height: 320px;
+	width: 1130px;
+	margin-top: 15px;
+	margin-left: 150px;
+}
+
+.jieshao21 {
+	width: 500px;
+	height: 320px;
+	float: left;
+}
+
+.jieshao211 {
+	width: 366px;
+	height: 298px;
+	float: right;
+	margin-right: 80px;
+}
+
+.jieshao22 {
+	width: 50px;
+	height: 300px;
+	float: left;
+	margin-left: 55px;
+}
+
+.jieshao23 {
+	width: 350px;
+	height: 300px;
+	float: left;
+	margin-top: 10px;
+	margin-left: -7px;
+}
+
+.jieshao3 {
+	float: top;
+	height: 160px;
+	width: 300px;
+	margin-left: 487px;
+}
+
+.jieshao4 {
+	float: top;
+	height: 320px;
+	width: 940px;
+	margin-top: 15px;
+	margin-left: 290px;
+}
+
+.jieshao41 {
+	width: 500px;
+	height: 320px;
+	float: left;
+}
+
+.jieshao411 {
+	width: 366px;
+	height: 298px;
+	float: right;
+	margin-right: 105px;
+}
+
+.jieshao42 {
+	width: 50px;
+	height: 300px;
+	float: left;
+	margin-left: 20px;
+}
+
+.jieshao43 {
+	width: 350px;
+	height: 300px;
+	float: left;
+	margin-top: 8px;
+	margin-left: -7px;
+}
+
+.jieshao5 {
+	float: top;
+	height: 160px;
+	width: 300px;
+	margin-left: 487px;
+}
+
+.jieshao6 {
+	float: top;
+	height: 320px;
+	width: 1130px;
+	margin-top: 15px;
+	margin-left: 150px;
+}
+
+.jieshao61 {
+	width: 500px;
+	height: 320px;
+	float: left;
+}
+
+.jieshao611 {
+	width: 366px;
+	height: 298px;
+	float: right;
+	margin-right: 50px;
+}
+
+.jieshao62 {
+	width: 50px;
+	height: 300px;
+	float: left;
+	margin-left: 60px;
+}
+
+.jieshao63 {
+	width: 350px;
+	height: 300px;
+	float: left;
+	margin-top: 5px;
+	margin-left: -7px;
+}
+
+.jieshao7 {
+	float: top;
+	height: 160px;
+	width: 300px;
+	margin-left: 487px;
+}
+
+.jieshao8 {
+	float: top;
+	height: 320px;
+	width: 940px;
+	margin-top: 15px;
+	margin-left: 290px;
+}
+
+.jieshao81 {
+	width: 500px;
+	height: 320px;
+	float: left;
+}
+
+.jieshao811 {
+	width: 366px;
+	height: 298px;
+	float: right;
+	margin-right: 160px;
+}
+
+.jieshao82 {
+	width: 50px;
+	height: 300px;
+	float: left;
+	margin-left: 20px;
+}
+
+.jieshao83 {
+	width: 350px;
+	height: 300px;
+	float: left;
+	margin-top: 10px;
+	margin-left: -7px;
+}
+
+/*底部栏*/
+.dibu {
+	margin: 300px auto 0 auto;
+}
+
+.dibufb {
+	width: 1349px;
+	height: 190px;
+}
+
+.dibu1 {
+	height: 110px;
+	margin-top: 33px;
+	width: 660px;
+	float: left;
+	margin-left: 190px;
+}
+
+.dibu13 {
+	font-size: 12px;
+	line-height: 28px;
+}
+
+.dibu2 {
+	height: 70px;
+	width: 200px;
+	float: right;
+	margin-right: 170px;
+	margin-top: 50px;
+}

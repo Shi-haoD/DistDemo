@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xmlns:p="http://www.springframework.org/schema/p" xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd
+        http://www.springframework.org/schema/mvc
+        http://www.springframework.org/schema/mvc/spring-mvc.xsd">
+	<!-- 扫描controller -->
+	<context:component-scan base-package="lsh.disk.controller" />
+	<!-- 开启注解 -->
+	<mvc:annotation-driven />
+	<mvc:default-servlet-handler />
+    <!-- 设置静态资源的访问 -->
+    <mvc:resources location="/statics/" mapping="/statics/**"/>
+	<!-- 上传文件 -->
+	<bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+		<property name="maxUploadSize" value="52428800"/><!-- 50m-->
+		<property name="defaultEncoding" value="UTF-8"/>
+	</bean>
+	<!--打开视图解析器 -->
+	<bean
+		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+		<property name="prefix" value="/" />
+		<property name="suffix" value=".jsp"></property>
+	</bean>
+
+
+</beans>

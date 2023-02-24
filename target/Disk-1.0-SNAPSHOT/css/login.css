@@ -1,0 +1,350 @@
+/*两个div块*/
+#menu {
+	position: absolute;
+	left: 923px;
+	top: 150px;
+	width: 300px;
+	height: 450px;
+	border-radius: 5px;
+	background-color: #FCFCFC;
+}
+#menu2 {
+	position: absolute;
+	left: 823px;
+	top: 85px;
+	width: 300px;
+	height: 450px;
+	border-radius: 5px;
+	background-color: #FCFCFC;
+	display: none;
+}
+
+.zhubody{
+	width: 300px;
+	height: 450px;
+	margin-top: 30px;
+}
+.deng1 h2 {
+	font-weight: normal;
+	position: relative;
+	font-size: 18px;
+	color: #3c4441;
+	text-align: center;
+	margin-top: 40px;
+}
+
+.deng2 {
+	font-size: 12px;
+	margin-top: 18px;
+	text-align: center;
+}
+
+.deng3 {
+	width: 250px;
+	height: 45px;
+	margin-top: 30px;
+	margin-left: 30px;
+}
+
+.deng3 input {
+	display: block;
+	width: 214px;
+	height: 18px;
+	line-height: 18px;
+	padding: 11px 12px;
+	margin: 0;
+	background: #FFFFFF;
+	border: 1px solid #e1e1e1;
+	border-radius: 5px;
+	font-size: 14px;
+	color: gray;
+	outline: none;
+}
+.deng3 input:hover{border-color: #FF7F00}
+.deng4 {
+	width: 250px;
+	height: 45px;
+	margin-top: 10px;
+	margin-left: 30px;
+}
+
+.deng4 input {
+	display: block;
+	width: 214px;
+	height: 18px;
+	line-height: 18px;
+	padding: 11px 12px;
+	margin: 0;
+	background: #FFFFFF;
+	border: 1px solid #e1e1e1;
+	border-radius: 5px;
+	font-size: 14px;
+	color: gray;
+	outline: none;
+}
+.deng4 input:hover{border-color: #FF7F00}
+.deng5 {
+	width: 250px;
+	height: 45px;
+	margin-top: 20px;
+	margin-left: 25px;
+}
+
+.deng51 {
+	float: left;
+	margin-left: 7px;
+	width: 120px;
+	height: 40px;
+}
+
+.deng511 {
+	float: left;
+	width: 5px;
+	height: 5px;
+	margin-top: -7px;
+	margin-left: -2px;
+}
+
+.deng512 {
+	float: left;
+	width: 90px;
+	height: 20px;
+	margin-left: 21px;
+
+}
+
+.deng52 {
+	float: left;
+	margin-left: 55px;
+}
+
+.deng52 a {
+	text-align: right;
+	font-size: 12px;
+	color: #999999;
+}
+
+.deng52 a:hover {
+	color: orange
+}
+
+.deng6 input {
+	display: block;
+	background-color: #3B8CFF !important;
+	border: 1px solid #3B8CFF!important;
+	border-radius: 3px;
+	line-height: 1px;
+	height: 38px;
+	width: 240px;
+	color: #FFFFFF;
+	margin-left: 30px;
+	font-size: 14px;
+	outline: none;
+    box-shadow: 2px 2px 3px #888888;
+}
+
+.deng7 {
+	float: top;
+	margin-top: 15px;
+}
+
+.deng7 a {
+	display: block;
+	border: 1px solid #3B8CFF !important;
+	border-radius: 3px;
+	line-height: 38px;
+	height: 38px;
+	width: 239px;
+	color: #3B8CFF;
+	text-align: center;
+	font-size: 14px;
+	margin-left: 30px;
+	outline: none;
+}
+.deng8 {
+	float: left;
+	margin-top: 18px;
+	margin-left: 172px;
+	width: 140px;
+	height: 20px;
+}
+.deng8 a {
+	font-size: 12px;
+	color: #999999;
+}
+.deng8 a:hover{color: #FF7F00}
+
+
+.deng21 h2 {
+	font-weight: normal;
+	position: relative;
+	font-size: 18px;
+	color: #3c4441;
+	text-align: center;
+	margin-top: 40px;
+}
+
+.deng22 {
+	font-size: 12px;
+	margin-top: 18px;
+	text-align: center;
+}
+
+.deng23 {
+	width: 250px;
+	height: 45px;
+	margin-top: 30px;
+	margin-left: 30px;
+}
+
+.deng23 input {
+	display: block;
+	width: 214px;
+	height: 18px;
+	line-height: 18px;
+	padding: 11px 12px;
+	margin: 0;
+	background: #FFFFFF;
+	border: 1px solid #e1e1e1;
+	border-radius: 5px;
+	font-size: 14px;
+	color: gray;
+	outline: none;
+}
+.deng23 input:hover{border-color: #FF7F00}
+.deng24 {
+	width: 250px;
+	height: 45px;
+	margin-top: 10px;
+	margin-left: 30px;
+}
+
+.dx{
+	display: block;
+    float: left;
+	width: 110px;
+	height: 18px;
+	line-height: 18px;
+	padding: 11px 12px;
+	margin: 0;
+	background: #FFFFFF;
+	border: 1px solid #e1e1e1;
+	border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+	font-size: 12px;
+	color: gray;
+	outline: none;
+}
+.dx1{
+    display: block;
+    float: left;
+    width: 105px;
+    height: 40px;
+    font-size: 12px;
+    text-align:center;
+     line-height:38px;
+    background-color: #FF7F00;
+    color: white;
+    outline: none;
+    border: 1px solid #FFA244;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+
+.deng26{
+	width: 250px;
+	height: 45px;
+	margin-top: 20px;
+}
+.deng26 input {
+	display: block;
+	background-color: orange !important;
+	border: 1px solid orange !important;
+	border-radius: 3px;
+	line-height: 1px;
+	height: 38px;
+	width: 240px;
+	color: #FFFFFF;
+    margin-left: 30px;
+	font-size: 14px;
+	outline: none;
+	box-shadow: 2px 2px 3px #888888;
+}
+
+.deng27 {
+	width: 250px;
+	margin-left: 30px;
+	border-top: 1px solid #828282;
+	margin-top: 25px;
+}
+.dsf{
+	display: block;
+	float: left;
+	margin-top: 10px;
+	width: 250px;
+	font-size: 12px;
+	color: #666666;
+}
+.deng271{
+	float: left;
+	margin-top: 10px;
+	width: 26px;
+	height:26px;
+}
+.deng271 img{
+	display: block;
+	width: 26px;
+	height: 26px;
+}
+.qq{
+	display: block;
+	float: left;
+	margin-top: 14px;
+	margin-left: 5px;
+	font-size: 14px;
+	color: #666666;
+}
+.deng272{
+	float: left;
+	margin-top: 10px;
+	margin-left: 10px;
+	width: 26px;
+	height: 26px;
+}
+.deng272 img{
+	display: block;
+	width: 26px;
+	height: 26px;
+}
+.wx{
+	display: block;
+	float: left;
+	margin-top: 14px;
+	margin-left: 5px;
+	font-size: 14px;
+	color: #666666;
+}
+.deng28 {
+	float: left;
+	margin-top: 23px;
+	margin-left: 184px;
+	width: 140px;
+	height: 20px;
+}
+.deng28 a {
+	font-size: 12px;
+	color: #999999;
+}
+.deng28 a:hover{color: #FF7F00}
+
+
+
+
+
+
+
+
+
+
+
